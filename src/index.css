@@ -1,0 +1,27 @@
+#land-page-container{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+#skills-container{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(32, 33, 36);
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}

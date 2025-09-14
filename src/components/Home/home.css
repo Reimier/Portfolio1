@@ -1,0 +1,179 @@
+#home-container {
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 100px; 
+  margin-top: 180px;
+  margin-bottom: 150px;
+
+}
+
+#home-pic{
+
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  color:  rgb(52, 152, 219);
+  transition: 0.3s;
+  box-shadow: 5px 5px 8px 3px #000000;
+
+}
+
+#home-pic:hover{
+
+  box-shadow: 5px 5px 8px 3px #000000;
+  transition: 0.3s;
+  transform: scale(1.1);
+
+}
+
+#home-pic img{
+
+  margin-top: 7px;
+  height: 95%;
+  width: 95%;
+  border-radius: 300px;
+
+}
+
+#home-box{
+
+  height: 280px;
+  width: 590px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  flex-direction: column;
+  letter-spacing: 3px;
+
+}
+
+#name{
+
+color:  rgb(52, 152, 219);
+
+}
+
+#greetings{
+
+  margin-bottom: 0px;
+}
+
+#typewriter {
+
+  color: rgb(41, 128, 185);
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 2px solid rgb(255, 255, 255); 
+  height: 24px;
+  white-space: nowrap;
+  animation:
+    typing 3s steps(25) forwards,
+    blink 0.9s step-end infinite;
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 28ch } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+#home-box h1{
+
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+p{
+
+  margin-top: 10px;
+}
+
+
+
+#cv{
+
+  width: 150px;
+
+}
+
+#cv button{
+
+  margin-top: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 160px;
+  padding: 12px;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(52, 152, 219);
+  color: white;
+  transition: 0.3s;
+  box-shadow: 5px 5px 8px 3px #000000;
+ 
+}
+
+#cv button:hover{
+
+  transition: 0.3s;
+  transform: scale(1.1);
+  background-color: rgb(243, 156, 18);
+  color: black;
+  box-shadow: 5px 5px 8px 3px #000000;
+  cursor: pointer;
+
+}
+
+#work{
+
+  margin-left: 30px;
+  width: 150px;
+}
+
+#work button{
+
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  width: 160px;
+  padding: 12px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(52, 152, 219);
+  font-family: Arial, sans-serif;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 5px 5px 8px 3px #000000;
+ 
+}
+
+#work button:hover{
+
+  transition: 0.3s;
+  transform: scale(1.1);
+  background-color: rgb(243, 156, 18);
+  color: black;
+  box-shadow: 5px 5px 8px 3px #000000;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
