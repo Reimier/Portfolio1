@@ -43,7 +43,7 @@ function Skills(){
         className="tab-content"
         style={{ display: activeTab === "tab1" ? "block" : "none" }}
       >
-        This is content for Tab 1.
+        <p>Hello</p>
       </div>
       <div
         id="tab2"
